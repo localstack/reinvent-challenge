@@ -14,7 +14,7 @@ services:
       - DOCKER_HOST=unix:///var/run/docker.sock #unix socket to communicate with the docker daemon
       - LOCALSTACK_HOST=localstack # where services are available from other containers
       - LAMBDA_DOCKER_NETWORK=ls_network
-      - LOCALSTACK_API_KEY=${LOCALSTACK_API_KEY}
+      - LOCALSTACK_AUTH_TOKEN=${LOCALSTACK_AUTH_TOKEN}
       - LAMBDA_RUNTIME_ENVIRONMENT_TIMEOUT=60
       - ENFORCE_IAM=0
 
