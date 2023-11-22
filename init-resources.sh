@@ -10,4 +10,4 @@ awslocal lambda create-function \
   --memory-size 512 \
   --zip-file fileb:///etc/localstack/init/ready.d/first-step.jar \
   --region us-east-1 \
-  --role arn:aws:iam::000000000000:role/productRole
+  --role arn:aws:iam::000000000000:role/challengeRole
