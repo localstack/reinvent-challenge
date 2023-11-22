@@ -1,2 +1,3 @@
-# reinvent-challenge
-Repository for re:Invent "scavenger hunt" using LocalStack
+# LocalStack @ AWS re:Invent Challenge - Cloud Pod
+
+Part 1 of The Ultimate Local Cloud Developer Challenge
